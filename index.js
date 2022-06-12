@@ -3,7 +3,7 @@ require("./utils/db");
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const port = 1101;
+const port = process.env.PORT || 1001;
 
 app.use(cors());
 
